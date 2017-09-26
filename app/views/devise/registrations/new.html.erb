@@ -21,6 +21,21 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
+  <div class="field">
+    <%= f.label :username %><br />
+    <%= f.username_field :username %>
+  </div>
+
+  <div class="field">
+    <%= f.label :date_of_birth %><br />
+    <%= f.date_of_birth_field :date_of_birth %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone %><br />
+    <%= f.phone_field :phone %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>

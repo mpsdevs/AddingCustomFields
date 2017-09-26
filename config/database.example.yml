@@ -1,3 +1,5 @@
+#####begin Mrin's DB!
+
 
 # PostgreSQL. Versions 9.1 and up are supported.
 #
@@ -86,3 +88,6 @@ production:
  password: <%= ENV['WEDDING_APP_DATABASE_PASSWORD'] %>
 
  # END CARLOS' DATABASE!!!!
+
+
+####END MRIN'S DB
